@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const WORDS = ["WELCOME", "ITZFIZZ"];
+const WORDS = ["WELCOME", "NEW USER"];
 const STATS = [
   { value: "58%", label: "more leads from redesigned landing pages" },
   { value: "27%", label: "faster average page load" },
@@ -85,7 +85,7 @@ export default function Hero() {
     <section ref={root} className="relative h-svh overflow-hidden">
       <div className="absolute inset-x-0 top-[12%] px-4 text-center">
         <h1
-          aria-label="Welcome Itzfizz"
+          aria-label="Welcome New User"
           className="display text-[clamp(1rem,4.2vw,3.2rem)] font-medium leading-tight"
         >
           {WORDS.map((word, i) => (
